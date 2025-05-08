@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio() 
+	{
+		real soma
+		real livro1 = 26.9
+		real livro2 = 34.1
+		real livro3 = 29.9
+		real livro4 = 26.9
+		real livro5 = 50.0
+		real livro6 = 26.9
+		
+
+		soma = livro1 + livro2 + livro3 + livro4 + livro5 + livro6
+		soma = (soma * 100 + 0) / 100.0
+		escreva("O valor dos livros é: " , soma)
+		
+	}
+} 
