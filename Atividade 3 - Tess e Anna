@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia mae = "Tess"
+		cadeia filha = "Anna"
+		cadeia troca
+
+		troca = mae
+		mae = filha
+		filha = troca
+
+		escreva("Elas trocaram de corpo" , " a mãe é  " , mae)
+		escreva(" e a filha é " , filha)
+		
+	}
+}
